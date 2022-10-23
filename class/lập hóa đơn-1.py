@@ -36,8 +36,8 @@ class HoaDon(object):
         else:
             self.sum = round(self.tong + self.tong * 5 / 100)
 
-    # def __str__(self):
-    #     return "{} {} {}".format(self.ma, self.ten, self.sum)
+    def __str__(self):
+        return "{} {} {}".format(self.ma, self.ten, self.sum)
 
 
 t = int(input())
